@@ -231,7 +231,7 @@ const startLogoutTimer = function () {
     if (time === 0) {
       clearInterval(timer);
       containerApp.style.opacity = 0;
-      labelWelcome.textContent = `Log in to get started`;
+      labelWelcome.textContent = `Log in to your bank account get started`;
     }
 
     // decrease timer
@@ -372,7 +372,7 @@ btnClose.addEventListener('click', function (e) {
   inputCloseUsername.value = '';
   inputClosePin.value = '';
 
-  labelWelcome.textContent = `Log in to get started`;
+  labelWelcome.textContent = `Log in to your bank account get started`;
 })
 
 // SORTING MOVEMENTS
